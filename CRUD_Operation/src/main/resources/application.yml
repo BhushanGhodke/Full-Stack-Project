@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: CRUD_Operation
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/crud_operation
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+    
+app:
+   message:
+       saveError: Something Went Wrong  
+       saveSuccess: Customer Saved Successfully
+       saveUserExists:  User Alredy Exists !!
+       updateSuccess:  User Update Successfully 
+       updateError:  User Updation Failed !!
+       deleteSuccess: User Deleted Successfully
+       deleteError:  Something Went Wrong 
+       
+      
+server:
+  port: 8181 
+       
